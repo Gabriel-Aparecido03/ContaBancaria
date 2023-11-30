@@ -5,25 +5,25 @@ Atividade utilizanod cucumber e junit
 Este repositório guarda o código de uma aplicação de exemplo utilizada para fins de estudos de BDD (Behavior Driven Development) e TDD (Test Driven Development ). <br/>
 Usando Cucumber e Junit
 
-##Autor
+## Autor
 Gabriel Aparecido da Silva
 
-##Estrutura
+## Estrutura
 - `src/test`: Contém o arquivo do Cucumber e Junit.
 - `src/main`: Contém a classe Conta .
 - `docs/`: Contém a documentação do projeto utilizando JAVADOCS.
 
 
-##Cucumber
+## Cucumber
 
-###Feature
+### Feature
 `
 Feature:Cliente faz saque de dinheiro como um cliente,
 eu gostaria de sacar dinheiro em caixa eletrônico,
 para que eu tenha que esperar em uma fila do banco.
 `
 
-###Tag1
+### Tag1
 `
 Scenario: Cliente especial com saldo negativo
   Given Um cliente especial com saldo atual de -200 reais
@@ -32,7 +32,7 @@ Scenario: Cliente especial com saldo negativo
   And check more outcomes
 `
 
-###Tag2
+### Tag2
 `
 Scenario Outline: Cliente comum com saldo negativo
   Given Um cliente comum com saldo atual de -200 reais
@@ -43,11 +43,11 @@ Scenario Outline: Cliente comum com saldo negativo
 Imagem :
 ![image](https://github.com/Gabriel-Aparecido03/ContaBancaria/assets/67979742/1515040d-eb25-4cd0-8518-24172dfe34fa) </br >
 
-##Javadoc
+## Javadoc
 
 ![image](https://github.com/Gabriel-Aparecido03/ContaBancaria/assets/67979742/e271baa3-7750-4b8b-b0ca-86ab4d78b5fe)<br/>
 
-##Clase Conta
+## Clase Conta
 
 ![image](https://github.com/Gabriel-Aparecido03/ContaBancaria/assets/67979742/f7c3bc6b-3cd4-4c2e-b964-b275b7922677)
 
